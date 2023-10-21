@@ -19,4 +19,9 @@ public class HelloDBAuthController {
     public String securedHello(){
         return "hello secured";
     }
+
+    @GetMapping("/secured/alternate")
+    public String alternate() {
+        return "alternate";
+    }
 }
